@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pullbg"
+    tools:context=".PullFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D5272525"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvpull"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:fontFamily="@font/anton"
+            android:text="Weighted pull-ups  6x3 (8.75kg per side) at 20th position\n\n
+    Seated Cable rows 10x3 (41.25g)\n\n
+    Kneeling cable pullover 10x3 (13.75 +0.625kg)\n\n
+    Single arm High cable rows 10x3 (11.25kg)\n\n
+    Hammer Cheat Curls 16x3 (12.5kg)\n\n
+    Seated dumbbell curls 10x3 (7.5kg)\n\n
+    1/0.5/0.5 lying leg raises 10x3\n\n
+    V sit ups 10x3\n\n
+    35 minutes Cardio"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_gradient"
+            android:padding="30dp"
+            android:text="share" />
+    </LinearLayout>
+
+</RelativeLayout>

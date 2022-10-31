@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/legbg"
+    tools:context=".LegFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C81B1919"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvlegs"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:fontFamily="@font/anton"
+            android:text="Squat 4x3 80kg\n\n
+    RDL 10x3 50kg\n\n
+    Leg press 15x3 50kg\n\n
+    Eccentric Accentuated leg extensions 10x3 27.5kg\n\n
+    Seated leg curls 10x3 27.5kg\n\n
+    Smith machine calf raises 12x3 50kg\n\n
+    Superset
+    A- weighted decline crunch 10x2 15kg
+    B- long lever plank 30 seconds x2\n\n
+    15 mins cardio"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_gradient"
+            android:padding="30dp"
+            android:text="share" />
+    </LinearLayout>
+
+</RelativeLayout>

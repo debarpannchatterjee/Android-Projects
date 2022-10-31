@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pushbg"
+    tools:context=".PushFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BF393636"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvpush"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:fontFamily="@font/anton"
+            android:text="Flat Bench 8x3 (60kg)\n\n
+    Machine Shoulder Press 10x3 (27.5kg)\n\n
+    Dips 10x3\n\n
+    Eccentric-Accentuated Skull Crushers 10x3 (15kg)\n\n
+    Egyptian lateral raises 12x3 + MYO on last set (5kg)\n\n
+    Cable tricep kickback 20x3 (1.25kg + 0.625kg)\n\n
+    Hanging leg raises 10x3\n\n
+    20 mins cardio (avoid high intensity before leg day)"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_gradient"
+            android:padding="30dp"
+            android:text="share" />
+    </LinearLayout>
+
+</RelativeLayout>
